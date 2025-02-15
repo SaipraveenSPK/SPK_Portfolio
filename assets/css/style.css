@@ -175,6 +175,10 @@ img {
         z-index: -1;
     }
     
+    .btn-brand1::before,
+    .btn-brand1::after {
+    will-change: transform;
+    }
     @keyframes wave {
         0%{rotate: 0deg;}
         100%{rotate: 360deg;}
